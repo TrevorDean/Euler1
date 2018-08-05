@@ -9,7 +9,6 @@ def multiplefinder35(number):
             counter += 1
             numberstore.append(number)
         number -= 1
-
     return sum(numberstore)
 
 print multiplefinder35(999)
